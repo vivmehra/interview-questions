@@ -1,0 +1,73 @@
+.relative {
+    border: 2px solid green;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+p::first-letter{
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+.box {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .leftCol {
+      background-color: grey;
+      float: left;
+      width: 100px;
+  }
+  .content {
+      background-color: hotpink;
+      overflow: hidden;
+  }
+  .rightCol {
+    background-color: grey;
+    float: right;
+    width: 100px;
+}
